@@ -50,9 +50,9 @@ const Products = () => {
                 <p className="text-black_rgba text-[16px] font-poppins font-medium leading-6">
                   $160
                 </p>
-                <hr className="w-[45px] h-[2px] bg-black_rgba absolute left-[42px] top-[12px]" />
+                <hr className="w-[50px] h-[2px] bg-black_rgba absolute left-[45px] top-[10px]" />
               </div>
-              <div className="flex gap-2 items-center mt-2">
+              <div className="flex items-center gap-2 mt-2">
                 <div className="flex gap-1">
                   <FaRegStar size={20} className=" text-orange" />
                   <FaRegStar size={20} className=" text-orange" />
@@ -95,9 +95,9 @@ const Products = () => {
                 <p className="text-black_rgba text-[16px] font-poppins font-medium leading-6">
                   $1160
                 </p>
-                <hr className="w-[45px] h-[2px] bg-black_rgba absolute left-[42px] top-[12px]" />
+                <hr className="w-[55px] h-[2px] bg-black_rgba absolute left-[45px] top-[10px]" />
               </div>
-              <div className="flex gap-2 items-center mt-2">
+              <div className="flex items-center gap-2 mt-2">
                 <div className="flex gap-1">
                   <FaRegStar size={20} className=" text-orange" />
                   <FaRegStar size={20} className=" text-orange" />
@@ -140,9 +140,9 @@ const Products = () => {
                 <p className="text-black_rgba text-[16px] font-poppins font-medium leading-6">
                   $400
                 </p>
-                <hr className="w-[45px] h-[2px] bg-black_rgba absolute left-[42px] top-[12px]" />
+                <hr className="w-[55px] h-[2px] bg-black_rgba absolute left-[45px] top-[10px]" />
               </div>
-              <div className="flex gap-2 items-center mt-2">
+              <div className="flex items-center gap-2 mt-2">
                 <div className="flex gap-1">
                   <FaRegStar size={20} className=" text-orange" />
                   <FaRegStar size={20} className=" text-orange" />
@@ -185,9 +185,9 @@ const Products = () => {
                 <p className="text-black_rgba text-[16px] font-poppins font-medium leading-6">
                   $400
                 </p>
-                <hr className="w-[45px] h-[2px] bg-black_rgba absolute left-[42px] top-[12px]" />
+                <hr className="w-[55px] h-[2px] bg-black_rgba absolute left-[45px] top-[10px]" />
               </div>
-              <div className="flex gap-2 items-center mt-2">
+              <div className="flex items-center gap-2 mt-2">
                 <div className="flex gap-1">
                   <FaRegStar size={20} className=" text-orange" />
                   <FaRegStar size={20} className=" text-orange" />

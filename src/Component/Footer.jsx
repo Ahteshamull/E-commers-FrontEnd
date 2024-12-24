@@ -9,7 +9,7 @@ import {
 import QrImg from "../assets/qr.png"
 const Footer = () => {
   return (
-    <footer className="bg-black text-white">
+    <footer className="text-white bg-black">
       <div className="container max-w-[1170px] mx-auto">
         <div className="flex  justify-between pt-[80px] pb-[60px] ">
           <div>
@@ -28,11 +28,11 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="Enter your email..."
-                className="bg-black placeholder:text-white_rgba border placeholder:px-3 border-white_rgba rounded-md placeholder:text-[16px] placeholder:font-poppins placeholder:font-normal outline-none"
+                className="bg-black px-1 py-1 placeholder:text-white_rgba placeholder:w-[130px] border placeholder:px-3 border-white_rgba rounded-md placeholder:text-[16px] placeholder:font-poppins placeholder:font-normal outline-none"
               />
               <IoSendOutline
                 size={16}
-                className="absolute right-[30px] bottom-[5px] text-white"
+                className="absolute right-[30px] bottom-[9px] text-white"
               />
             </div>
           </div>
