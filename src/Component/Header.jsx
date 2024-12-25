@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { GiSelfLove } from "react-icons/gi";
 import { LuUser } from "react-icons/lu";
+import card from "../pages/Card";
 const Header = () => {
   const location = useLocation();
   return (
@@ -120,7 +121,9 @@ const Header = () => {
                   className="absolute bottom-[9px] right-[160px]  text-[#000] "
                 />
               )}
-              <div className="flex gap-4">
+                <div className="flex gap-4">
+                  <Link to={"/wishlist"}>
+                  
                 <GiSelfLove
                   size={32}
                   className={`${
@@ -131,15 +134,20 @@ const Header = () => {
                       : "block"
                   }`}
                 />
-                <GiShoppingCart
-                  size={32}
-                  className={`${
-                    location.pathname === "/signup" ||
-                    location.pathname === "/login"
-                      ? "hidden"
-                      : "block"
-                  }`}
-                />
+                  </Link>
+                <Link to={"/card"}>
+                  <GiShoppingCart
+                    size={32}
+                    className={`${
+                      location.pathname === "/signup" ||
+                      location.pathname === "/login"
+                        ? "hidden"
+                        : "block"
+                    }`}
+                  />
+                </Link>
+                  <Link to={"/account"}>
+                  
                 <LuUser
                   size={32}
                   className={`${
@@ -150,6 +158,7 @@ const Header = () => {
                       : "block"
                   }`}
                 />
+                  </Link>
               </div>
               {/* {location.pathname === "/" ? (
               <Link to="/card">
