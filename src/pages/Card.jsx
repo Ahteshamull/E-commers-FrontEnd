@@ -6,7 +6,7 @@ import Smlremot from "../assets/smallremot.png";
 const Card = () => {
   return (
     <div className="container w-[1170px] mx-auto">
-      <div className="mt-[80px] mb-[80px] flex items-center gap-1">
+      <div className="mt-[80px] mb-[81px] flex items-center gap-1">
         <Link
           className="text-[14px] font-poppins font-normal leading-5 text-black/25"
           to={"/"}
